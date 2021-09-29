@@ -7,30 +7,30 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-       <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главная</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">О Седоне</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link navigation-link-current " href="catalog.html">Гостиницы</a>
-        </li>
-       </ul>
-       <a class="logo" href="#">
-         <img class="logo" src="" alt="Логотип Седона"></a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-current " href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+          <a class="logo" href="#">
+          <img class="logo" src="" alt="Логотип Седона"></a>
        <ul class="navigation-list navigation-user">
-        <li class="navigation-button">
+         <li class="navigation-button">
            <a class="navigation-link" href="#">
-            <span class="visually-hidden">Поиск</span></a>
-        </li>
-        <li class="navigation-item">
-            <button class="button-item" type="button">Нравится</button>
-        </li>
-        <li class="navigation-button item">
-          <button class="button" type="button">Хочу сюда!</button>
-        </li>
+           <span class="visually-hidden">Поиск</span></a>
+         </li>
+         <li class="navigation-item">
+           <button class="button-item" type="button">Нравится</button>
+         </li>
+         <li class="navigation-button item">
+           <button class="button" type="button">Хочу сюда!</button>
+         </li>
        </ul>
       </nav>
     </header>
@@ -82,21 +82,21 @@
                 <label class="control">
                   <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel">
                   <span class="control-mark"></span>
-              <span class="control-label">Гостиница</span>
+                  <span class="control-label">Гостиница</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel" checked>
                   <span class="control-mark"></span>
-              <span class="control-label">Мотель</span>
+                  <span class="control-label">Мотель</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="visually-hidden control-input" type="radio" name="product-group" value="apartments">
                   <span class="control-mark"></span>
-              <span class="control-label">Апартаменты</span>
+                  <span class="control-label">Апартаменты</span>
                 </label>
               </li>
             </ul>
@@ -112,7 +112,6 @@
             <label class="catalog-filter-label">
                <input class="catalog-filter-input" type="number" name="min-price">от
             </label>
-
             <label class="catalog-filter-label">
                <input class="catalog-filter-input" type="number" name="max-price">до
             </label>
@@ -148,7 +147,6 @@
           <span class="hotel-card-price"> Гостиница От 4000 ₽</span>
           <a href="#" class="hotel-card-button button">Подробнее</a>
           <button class="favorites" type="button">В избранное</button>
-          <button class="favorites-other" type="button">В избранном</button>
           <span class="rating">Рейтинг: 8,5</span>
         </li>
         <li class="hotel-card">
@@ -159,7 +157,6 @@
           <span class="hotel-card-price"> Мотель От 3000 ₽</span>
           <a href="#" class="hotel-card-button button">Подробнее</a>
           <button class="favorites" type="button">В избранное</button>
-          <button class="favorites-other" type="button">В избранном</button>
           <span class="rating">Рейтинг: 8,9</span>
         </li>
         <li class="hotel-card">
@@ -169,7 +166,6 @@
           </a>
           <span class="hotel-card-price"> Апартаменты От 2000 ₽</span>
           <a href="#" class="hotel-card-button button">Подробнее</a>
-          <button class="favorites" type="button">В избранное</button>
           <button class="favorites-other" type="button">В избранном</button>
           <span class="rating">Рейтинг: 9,2</span>
         </li>
@@ -181,7 +177,6 @@
           <span class="hotel-card-price"> Гостиница От 3000 ₽</span>
           <a href="#" class="hotel-card-button button">Подробнее</a>
           <button class="favorites" type="button">В избранное</button>
-          <button class="favorites-other" type="button">В избранном</button>
           <span class="rating">Рейтинг: 9,2</span>
         </li>
         </ul>
@@ -209,15 +204,16 @@
           </li>
         </ul>
          <span class="hotel">Гостиниц на странице:</span>
-         <select name="number">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option selected value="4" >4</option>
-          </select>
+         <form class="hotel-number">
+           <select name="number">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option selected value="4" >4</option>
+            </select>
               <input class="visually-hidden" type="submit" value="Отправить">
+         </form>
       </section>
-
       <section class="mailing">
         <h2 class="mailing-title">Подпишитесь на рассылку</h2>
         <p class="mailing-text">Только полезная информация и никакого спама, честное бойскаутское</p>
