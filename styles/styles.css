@@ -29,7 +29,6 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
   text-decoration: none;
@@ -173,7 +172,7 @@ body {
   background: rgba(131, 179, 211, 0.12);
 }
 
-.registration-list{
+.registration-list {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
@@ -182,7 +181,7 @@ body {
   color: #000000;
 }
 
-.registration-item{
+.registration-item {
   font-size: 22px;
 }
 
@@ -310,7 +309,7 @@ body {
 }
 
 .favorites {
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   width: 160px;
@@ -330,7 +329,7 @@ body {
 }
 
 .favorites-other {
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   width: 160px;
