@@ -15,7 +15,17 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -65,8 +75,33 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-bottom: 91px;
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navigation-list {
+  width: 531px;
+  margin: 0;
+  padding: 0;
+  outline: 5px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
+}
+
+.navigation-user {
+  max-width: 531px;
+  margin-left: auto;
+  outline: 5px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin: 0;
+}
 
 .navigation-link {
   font-size: 20px;
@@ -81,13 +116,87 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+.hello {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 82px;
+}
 
 .advantages-list{
+  margin: 0;
+  padding: 0;
   text-align: center;
+
+
+}
+
+.try {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.title-white {
+  margin-top: 98px;
+}
+.advantages-description {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.advantages-one{
+  margin-top: 25px;
+  margin-bottom: 26px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.blue {
+  text-align: center;
+  width: 400px;
+}
+.advantages-item {
+  display: flex;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+.advatages-foto {
+  width: 800px;
+}
+.food {
+  flex-direction: column;
+  width: 400px;
+}
+
+.area {
+  flex-direction: column;
+  width: 400px;
+}
+
+.present {
+  flex-direction: column;
+  width: 400px;
+}
+
+.road {
+
+  width: 400px;
+}
+.tourist {
+  width: 400px;
+}
+.sublist{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
 }
 
 .registration {
   text-align: center;
+
 }
 
 .preface {
@@ -108,13 +217,31 @@ body {
   color: #000000;
 }
 
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
 .footer-contacts {
+  width: 720px;
+  margin-left: 240px;
   text-align: center;
 }
 
 .preface {
   background: white;
 }
+
+.preface-position {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 720px;
+  margin-top: 63px;
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
 .preface-position {
   font-weight: 700;
   font-size: 30px;
@@ -125,8 +252,16 @@ body {
 }
 
 .preface-item {
+  width: 720px;
+  margin: 0;
+  padding: 0;
+  display: block;
   font-size: 22px;
   line-height: 36px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 23px;
+  margin-bottom: 79px;
 }
 
 .advantages-title {
@@ -173,6 +308,8 @@ body {
 }
 
 .registration-list {
+  margin-top: 91px;
+  margin-bottom: 15px;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
@@ -214,9 +351,22 @@ body {
 /* каталог */
 .catalog-bg {
   background-image: url("../images/catalog/catalog-bg.jpg");
+  width: 1200px;
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+.catalog-filter-title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 150px;
 }
 
 .mailing-title-catalog {
