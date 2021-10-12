@@ -21,8 +21,6 @@ html {
 
 body {
   margin: 0;
-  margin-left: 40px;
-  margin-right: 40px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -30,9 +28,14 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
 }
 
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .button {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -70,32 +73,41 @@ body {
   border-radius: 0px 10px 10px 0px;
   font-size: 20px;
   line-height: 26px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-bottom: 91px;
+}
+
+.mailing-form {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+input {
+  width: 600px;
+  border-radius: 0px 10px 10px 0px;
+
 }
 
 .navigation {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
 }
+
 .navigation-list {
   width: 531px;
   margin: 0;
   padding: 0;
-  outline: 5px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
 }
 
 .navigation-user {
   max-width: 531px;
   margin-left: auto;
-  outline: 5px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 .logo {
   display: block;
@@ -111,10 +123,12 @@ body {
   text-decoration: none;
 }
 
+
 .main-index {
   background-image: url("../images/index-bg.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  flex-grow: 1;
 }
 .hello {
   display: block;
@@ -123,10 +137,12 @@ body {
 }
 
 .advantages-list{
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   text-align: center;
-
+  list-style: none;
 
 }
 
@@ -155,23 +171,21 @@ body {
 .advantages-item {
   display: flex;
   width: 1200px;
-  margin: 0;
-  padding: 0;
+
   text-align: center;
   flex-wrap: wrap;
 
 }
-.advatages-foto {
-  width: 800px;
-}
-.food {
-  flex-direction: column;
+.sublist-item {
+  list-style: none;
   width: 400px;
 }
 
-.area {
-  flex-direction: column;
-  width: 400px;
+.advantages-item-mini {
+   width: 400px;
+}
+.advatages-foto {
+  width: 800px;
 }
 
 .present {
@@ -179,13 +193,6 @@ body {
   width: 400px;
 }
 
-.road {
-
-  width: 400px;
-}
-.tourist {
-  width: 400px;
-}
 .sublist{
   display: flex;
   margin: 0;
@@ -217,15 +224,16 @@ body {
   color: #000000;
 }
 
+.footer-contacts {
+  width: 720px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 .page-footer-container {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-}
-.footer-contacts {
-  width: 720px;
-  margin-left: 240px;
-  text-align: center;
 }
 
 .preface {
@@ -347,7 +355,11 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
-
+.about-text {
+  width: 115px;
+  margin-top: 42px;
+  margin-bottom: 45px;
+}
 /* каталог */
 .catalog-bg {
   background-image: url("../images/catalog/catalog-bg.jpg");
