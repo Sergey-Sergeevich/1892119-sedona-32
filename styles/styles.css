@@ -6,7 +6,6 @@
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -14,11 +13,9 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-
 html {
   height: 100%;
 }
-
 body {
   margin: 0;
   min-height: 100%;
@@ -28,7 +25,6 @@ body {
   color: #333333;
   background-color: #F2F2F2;
 }
-
 .conteiner {
   width: 1200px;
   margin-left: auto;
@@ -45,7 +41,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 .button-hotel {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -60,7 +55,6 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .button-mail{
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -76,7 +70,6 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .navigation-button-nice {
   font-weight: bold;
   font-size: 16px;
@@ -90,7 +83,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 33px;
-
 }
 .mailing-form {
   display: flex;
@@ -112,18 +104,13 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .mail-form {
   width: 600px;
   border-radius: 10px 0px 0px 10px;
 }
-
-
-
 .navigation {
   display: flex;
 }
-
 .navigation-list {
   display: flex;
   width: 460px;
@@ -133,9 +120,7 @@ body {
   padding-left: 71px;
   padding-top: 19px;
   padding-bottom: 20px;
-
 }
-
 .navigation-user {
   display: flex;
   max-width: 460px;
@@ -147,10 +132,7 @@ body {
   padding-top: 14px;
   padding-bottom: 14px;
   list-style-type: none;
-
-
 }
-
 .navigation-link-boss {
   width: 68px;
   height: 26px;
@@ -160,12 +142,10 @@ body {
   margin: 0 auto;
   margin: 0;
 }
-
 .navigation-link-scan {
   min-width: 18px;
   min-height: 18px;
 }
-
 .button-item-like {
   min-width: 18px;
   min-height: 17px;
@@ -178,7 +158,6 @@ body {
   color: #000000;
   text-decoration: none;
 }
-
 .navigation-link-sedona {
   font-size: 20px;
   line-height: 26px;
@@ -187,7 +166,6 @@ body {
   margin-right: 33px;
   text-decoration: none;
 }
-
 .navigation-link-boss {
   font-size: 20px;
   line-height: 26px;
@@ -196,12 +174,10 @@ body {
   margin-right: 33px;
   text-decoration: none;
 }
-
 .hello {
   display: block;
   margin: 0 auto;
 }
-
 .gor {
   padding-top: 51px;
   padding-bottom: 82px;
@@ -220,17 +196,14 @@ body {
   list-style: none;
   list-style-type: none;
 }
-
 .try {
   margin: 0;
   padding: 0;
   display: flex;
 }
-
 .advantages-title {
   margin: 0;
   padding: 0;
-
 }
 .advantages-description {
   margin: 0;
@@ -252,10 +225,8 @@ body {
 .advantages-item {
   display: flex;
   width: 1200px;
-
   text-align: center;
   flex-wrap: wrap;
-
 }
 .sublist-item {
   list-style: none;
@@ -265,13 +236,11 @@ body {
   padding-left: 75px;
   padding-right: 75px;
 }
-
 .advantages-item-mini {
-   width: 400px;
-   padding-top: 98px;
-   padding-bottom: 77px;
+  width: 400px;
+  padding-top: 98px;
+  padding-bottom: 77px;
 }
-
 .advantages-title-mini {
   margin: 0;
   font-weight: bold;
@@ -282,12 +251,10 @@ body {
   color: #000000;
   margin-bottom: 25px;
 }
-
 .advantages-number {
   margin: 0;
   margin-bottom: 26px;
 }
-
 .advantages-text-mini {
   margin: 0;
   margin-left: 75px;
@@ -296,35 +263,28 @@ body {
 .advatages-foto {
   width: 800px;
 }
-
 .present {
   flex-direction: column;
   width: 400px;
 }
-
 .sublist{
   width: 1200px;
   display: flex;
   margin: 0;
   padding: 0;
   text-align: center;
-
 }
-
 .registration {
   text-align: center;
   padding: 91px 240px;
 }
-
 .preface {
   text-align: center;
 }
-
 .mailing-catalog {
   text-align: center;
   padding: 94px 240px;
 }
-
 .footer-contacts-address-phone {
   font-style: normal;
   font-weight: normal;
@@ -334,12 +294,10 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
-
 .footer-contacts {
   width: 720px;
   text-align: center;
 }
-
 .page-footer {
   width: 1200px;
 }
@@ -352,33 +310,28 @@ body {
   padding-right: 72px;
   padding-left: 72px;
 }
-
 .footer-social-list {
   display: flex;
   list-style-type: none;
   margin: 0;
 }
-
 .button-twit {
   text-decoration: none;
   min-width: 18px;
   min-height: 15px;
   margin-right: 29px;
 }
-
 .button-face {
   text-decoration: none;
   min-width: 10px;
   min-height: 18px;
   margin-right: 30px;
 }
-
 .button-youtube {
   text-decoration: none;
   min-width: 20px;
   min-height: 16px;
 }
-
 .preface {
   background: white;
   padding-top: 63px;
@@ -386,7 +339,6 @@ body {
   padding-right: 240px;
   padding-bottom: 79px;
 }
-
 .preface-position {
   width: 720px;
   font-weight: 700;
@@ -396,14 +348,12 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
-
 .preface-item {
   width: 720px;
   font-size: 22px;
   line-height: 36px;
   margin-top: 23px;
 }
-
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
@@ -417,44 +367,33 @@ body {
   text-transform: uppercase;
   margin: 0;
 }
-
 .blue{
   background: #83b3d3;
   color: #ffffff;
 }
-
 .advantages-text {
   color: #333333;
   margin: 0;
   margin-top: 20px;
-
 }
-
 .area {
   background: rgba(121, 121, 121, 0.12);
-
 }
 .present {
   background: rgba(121, 121, 121, 0.12);
 }
-
 .road {
   background: rgba(131, 179, 211, 0.2);
 }
-
-
 .food {
   background: #FFFFFF;
-
 }
 .tourist {
   background: rgba(131, 179, 211, 0.12);
 }
-
 .present {
   background: rgba(131, 179, 211, 0.12);
 }
-
 .registration-list {
   margin-top: 91px;
   margin-bottom: 15px;
@@ -466,18 +405,15 @@ body {
   color: #000000;
   margin-bottom: 15px;
 }
-
 .registration-item {
   font-size: 22px;
   margin-bottom: 73px;
 }
-
 .mailing {
   background-image: url("../images/background-mailing.jpg");
   text-align: center;
-  padding: 94px 240px;
+  padding: 94px 200px;
 }
-
 .mailing-title {
   margin: 0;
   font-weight: bold;
@@ -487,7 +423,6 @@ body {
   color: #ffffff;
   margin-bottom: 15px;
 }
-
 .mailing-text {
   margin: 0;
   font-size: 22px;
@@ -495,7 +430,6 @@ body {
   color: #FFFFFF;
   margin-bottom: 26px;
 }
-
 .htmlacademy-link {
   font-style: normal;
   text-decoration: none;
@@ -508,47 +442,39 @@ body {
   margin-left: 53px;
   margin-left: auto;
 }
-
 /* каталог */
 .catalog-bg {
   background-image: url("../images/catalog/catalog-bg.jpg");
-
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
 }
-
 .breadcrumbs {
   display: flex;
   list-style-type: none;
-
 }
-
 .breadcrumbs-link {
   margin-left: 26px;
 }
 .catalog-filter-list {
   list-style-type: none;
 }
-
 .catalog-filter {
   display: flex;
   margin: 0;
   margin-top: 71px;
 }
-
 .catalog {
   margin: 0;
   padding-left: 71px;
   padding-right: 72px;
 }
-
 .seach-mini {
   display: flex;
   padding-top: 44px;
   padding-bottom: 42px;
   padding-left: 71px;
-  padding-right: 72;
+  padding-right: 72px;
 }
 .hotel-list {
   margin: 0;
@@ -557,17 +483,16 @@ body {
   padding-left: 72px;
   padding-right: 72px;
 }
-
 .hotel-card-button {
+  display: block;
   line-height: 21px;
-  height: 37px;
   width: 151px;
   text-align: center;
   text-transform: uppercase;
   border-radius: 4px;
   margin-right: 8px;
+  padding-top: 9px;
 }
-
 .show {
   padding-left: 288px;
   padding-top: 31px;
@@ -582,21 +507,18 @@ body {
   margin: 0;
   margin-bottom: 15px;
 }
-
 .mailing-text-catalog {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #333333;
 }
-
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
   text-decoration: none;
 }
-
 .button-catalog {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -613,7 +535,6 @@ body {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
-
 .button-point {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -625,20 +546,17 @@ body {
   width: 160px;
   height: 23px;
 }
-
 .inner-header-title {
   font-weight: bold;
   font-size: 60px;
   line-height: 78px;
   margin: 0;
 }
-
 .inner-header {
   margin: 0;
   padding-top: 35px;
   padding-left: 71px;
 }
-
 .catalog-filter-title {
   margin: 0;
   padding: 0;
@@ -648,7 +566,6 @@ body {
   line-height: 26px;
   margin-right: 67px;
 }
-
 .control-label {
   line-height: 23px;
 }
@@ -660,7 +577,6 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
-
 .sorting-type {
   font-size: 18px;
   line-height: 23px;
@@ -668,9 +584,10 @@ body {
 }
 .sorting-card {
   padding-left: 192px;
+}
+.button-light {
   width: 48px;
   height: 48px;
-
 }
 .hotel-card-title {
   margin: 0;
@@ -680,15 +597,12 @@ body {
   color: #000000;
   margin-bottom: 1px;
 }
-
 .hotel-card-image {
   margin-right: 37px;
 }
 .hotel-mini {
   text-decoration: none;
   display: flex;
-
-
 }
 .rating {
   background: #F2F2F2;
@@ -722,14 +636,13 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .hotel-card-price {
   line-height: 23px;
   color: #333333;
-  margin-right: 100px;
+  margin-right: 10px;
   margin-bottom: 31px;
+  width: 150px;
 }
-
 .hotel-money {
   display: flex;
 }
@@ -747,7 +660,6 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .catalog-show-more {
   margin: 0;
   padding: 0;
@@ -763,13 +675,11 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .pagination-start {
   display: flex;
   padding-left: 72px;
   padding-right: 72px;
   padding-top: 31px;
-
 }
 .pagination {
   display: flex;
@@ -789,15 +699,12 @@ body {
   border-radius: 4px;
   font-size: 20px;
   line-height: 26px;
-  align-items: center;
+  padding-top: 13px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
-
-
 }
-
 .hotel-form {
   display: flex;
   margin-left: auto;
