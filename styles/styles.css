@@ -285,9 +285,7 @@ body {
   text-align: center;
 }
 .mailing-catalog {
-  display: grid;
-  grid-template-rows: 50px 15px 72px 26px 60px;
-  grid-template-columns: 600px 200px;
+
   text-align: center;
   padding: 94px 200px;
 }
@@ -417,15 +415,10 @@ body {
 }
 .mailing {
   background-image: url("../images/background-mailing.jpg");
-  display: grid;
-  grid-template-rows: 50px 15px 72px 26px 60px;
-  grid-template-columns: 600px 200px;
   text-align: center;
   padding: 94px 200px;
 }
 .mailing-title {
-  grid-row: 1/2;
-  grid-column: 1/-1;
   margin: 0;
   font-weight: bold;
   font-size: 30px;
@@ -435,8 +428,7 @@ body {
   margin-bottom: 15px;
 }
 .mailing-text {
-  grid-column: 1/-1;
-  grid-row: 3/4;
+
   margin: 0;
   font-size: 22px;
   line-height: 26px;
@@ -518,8 +510,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  grid-row: 1/2;
-  grid-column: 1/-1;
+  margin-bottom: 15px;
 }
 .mailing-text-catalog {
   font-size: 22px;
@@ -527,8 +518,7 @@ body {
   text-align: center;
   color: #333333;
   margin: 0;
-  grid-column: 1/-1;
-  grid-row: 3/4;
+  margin-bottom: 26px;
 }
 .breadcrumbs-link {
   font-size: 16px;
@@ -600,11 +590,24 @@ body {
   color: #333333;
 }
 .sorting-card {
+  display: grid;
+  grid-template-columns: 287px 81px 48px 8px 48px 8px 48px;
   padding-left: 192px;
 }
-.button-light {
+.button-light-one {
   width: 48px;
   height: 48px;
+  grid-column: 3/4;
+}
+.button-light-two {
+  width: 48px;
+  height: 48px;
+  grid-column: 5/6;
+}
+.button-light-three {
+  width: 48px;
+  height: 48px;
+  grid-column: 7/8;
 }
 .hotel-card-title {
   margin: 0;
