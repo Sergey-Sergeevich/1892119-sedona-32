@@ -140,26 +140,63 @@ body {
   width: 68px;
   height: 26px;
 }
+.navigation-item {
+  position: relative;
+  display: block;
+}
 .logo {
   display: block;
   margin: 0 auto;
   margin: 0;
 }
+.navigation-icon-scan {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  left: 0px;
+  margin: auto;
+  margin-right: 22px;
+  fill: #000000;
+}
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  left: 0px;
+  margin: 0;
+  margin-right: 22px;
+  fill: #000000;
+}
 .navigation-link-scan {
-  min-width: 18px;
-  min-height: 18px;
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
 }
 .button-item-like {
-  min-width: 18px;
-  min-height: 17px;
+  border: none;
+  width: 18px;
+  height: 17px;
   margin-left: 21px;
 }
 .navigation-link {
+
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+}
+.navigation-activ:hover {
+  color: #756257;
+}
+.navigation-activ:focus {
+  border: 3px solid #83B3D3;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #756257;
 }
 .navigation-link-sedona {
   font-size: 20px;
@@ -232,12 +269,26 @@ body {
   flex-wrap: wrap;
 }
 .sublist-item {
+  position: relative;
   list-style: none;
   width: 400px;
   padding-top: 184px;
   padding-bottom: 79px;
   padding-left: 75px;
   padding-right: 75px;
+}
+.sublist-item .sublist-icon{
+  bottom: auto;
+  top: 89px;
+
+}
+.sublist-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 .advantages-item-mini {
   width: 400px;
@@ -301,6 +352,12 @@ body {
 .footer-contacts {
   width: 720px;
   text-align: center;
+}
+.footer-icon {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 16px;
 }
 .page-footer {
   width: 1200px;
@@ -381,6 +438,7 @@ body {
   margin-top: 20px;
 }
 .area {
+
   background: rgba(121, 121, 121, 0.12);
 }
 .present {
@@ -592,7 +650,7 @@ body {
 .sorting-card {
   display: grid;
   grid-template-columns: 287px 81px 48px 8px 48px 8px 48px;
-  padding-left: 192px;
+  margin-left: auto;
 }
 .button-light-one {
   width: 48px;
@@ -608,6 +666,19 @@ body {
   width: 48px;
   height: 48px;
   grid-column: 7/8;
+}
+.card-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.card-grid-current{
+  border: 2px solid #000000;
 }
 .hotel-card-title {
   margin: 0;
