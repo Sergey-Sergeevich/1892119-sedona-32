@@ -187,7 +187,8 @@ body {
 .mail-form:active {
   background: #FFFFFF;
   border: 2px solid #000000;
-
+  padding-left: 23px;
+  padding-right: 20px;
 }
 .navigation {
   display: flex;
@@ -579,6 +580,13 @@ body {
   top: 4px;
   right: 10px;
 }
+.footer-icon-youtube {
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  left: 4px;
+  bottom: 6px;
+}
 .button-twit {
   position:relative;
   width: 34px;
@@ -635,10 +643,10 @@ body {
   text-decoration: none;
   padding: 2px 1px;
 }
-.button-youtube:hover .footer-icon {
+.button-youtube:hover .footer-icon-youtube {
   fill: #68A2CA;
 }
-.button-youtube:active .footer-icon {
+.button-youtube:active .footer-icon-youtube {
   fill: rgba(104, 162, 202, 0.3)
 }
 .button-youtube:focus {
@@ -1096,6 +1104,10 @@ body {
   display: flex;
 }
 .rating {
+  width: 160px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  text-align: center;
   background: #F2F2F2;
   border-radius: 4px;
   margin-left: auto;
@@ -1109,14 +1121,13 @@ body {
 }
 
 .rating-icon {
-  width: 91px;
+  width: 89px;
   height: 17px;
   background-image: url(../images/icons/star.svg);
   background-repeat: space;
   background-size: 18px 17px;
   background-position: center;
-  margin-left: auto;
-  align-self: flex-start;
+  align-self: center;
 }
 .rating-icon-three {
   width: 68px;
@@ -1125,8 +1136,7 @@ body {
   background-repeat: space;
   background-size: 18px 17px;
   background-position: center;
-  margin-left: auto;
-  align-self: flex-start;
+  align-self: center;
 }
 .rating-icon-two {
   width: 43px;
@@ -1135,8 +1145,7 @@ body {
   background-repeat: space;
   background-size: 18px 17px;
   background-position: center;
-  margin-left: auto;
-  align-self: flex-start;
+  align-self: center;
 }
 .hotel-conteiner {
   display: flex;
@@ -1333,10 +1342,13 @@ body {
 .hotel-number {
   width: 160px;
   height: 48px;
-  border: 2px solid #E6E6E6;
+
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
+}
+.number {
+  border: 2px solid #E6E6E6;
 }
