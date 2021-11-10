@@ -17,11 +17,12 @@
               <a class="navigation-link" href="#">О Седоне</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link navigation-active" href="catalog.html">Гостиницы</a>
+              <a class="navigation-link navigation-active">Гостиницы</a>
             </li>
           </ul>
           <a class="logo" href="index.html">
-            <img class="logo" src="images/logo.svg" width="138" height="70" alt="Логотип Седона"></a>
+            <img src="images/logo.svg" width="138" height="70" alt="Логотип Седона">
+          </a>
           <ul class="navigation-user">
             <li class="navigation-button-icon">
               <a class="navigation-link-scan" href="#">
@@ -59,7 +60,7 @@
                   </a>
                 </li>
                 <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link" href="catalog.html">Гостиницы</a>
+                  <a class="breadcrumbs-link">Гостиницы</a>
                 </li>
               </ul>
             </header>
@@ -118,9 +119,19 @@
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="catalog-filter-group">
+                <fieldset class="catalog-filter-group" style="margin-left: auto;">
                   <legend class="catalog-filter-title">Стоимость,₽:</legend>
                   <div class="range">
+                    <div class="range-wrapper-inputs">
+                      <div class="catalog-filter-label">
+                        <input class="catalog-filter-input catalog-filter-min" id="min-price" type="number" value="0" name="min-price">
+                        <label class="catalog-label" for="min-price">от</label>
+                      </div>
+                      <div class="catalog-filter-label">
+                        <input class="catalog-filter-input catalog-filter-max" id="max-price" type="number" value="9000" name="max-price">
+                        <label class="catalog-label" for="max-price">до</label>
+                      </div>
+                    </div>
                     <div class="range-scale">
                       <div class="range-bar" style="width: 227px">
                         <button class="range-toggle toggle-min" type="button">
@@ -130,19 +141,6 @@
                           <span class="visually-hidden">Изменить максимальную цену.</span>
                         </button>
                       </div>
-                    </div>
-                    <div class="range-wrapper-inputs">
-                      <label class="catalog-filter-label">
-
-                        <input class="catalog-filter-input" type="number" value="0" name="min-price">
-                        <label class="catalog-label">от</label>
-
-                      </label>
-
-                      <label class="catalog-filter-label">
-                        <input class="catalog-filter-input" type="number" value="9000" name="max-price">
-                        <label class="catalog-label">до</label>
-                      </label>
                     </div>
                   </div>
                 </fieldset>
@@ -197,6 +195,7 @@
               </a>
             </div>
           </div>
+          <span class="line"></span>
           <ul class="hotel-list">
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
@@ -220,6 +219,7 @@
               <span class="rating">Рейтинг: 8,5</span>
               </div>
             </li>
+            <span class="line"></span>
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
                 <img class="hotel-card-image" src="images/catalog/hotel-2.jpg" width="180" height="120" alt="Мотель">
@@ -242,6 +242,7 @@
                 <span class="rating">Рейтинг: 8,9</span>
               </div>
             </li>
+            <span class="line"></span>
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
                 <img class="hotel-card-image" src="images/catalog/hotel-3.jpg" width="180" height="120" alt="Апартаменты">
@@ -264,6 +265,7 @@
                 <span class="rating">Рейтинг: 9,2</span>
               </div>
             </li>
+            <span class="line"></span>
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
                 <img class="hotel-card-image" src="images/catalog/hotel-4.jpg" width="180" height="120" alt="Гостиница">
@@ -287,9 +289,11 @@
               </div>
             </li>
           </ul>
+          <span class="line"></span>
           <div class="show">
             <button class="button catalog-show-more" type="button">Загрузить еще</button>
           </div>
+          <span class="line"></span>
           <div class="pagination-start">
             <ul class="pagination">
               <li class="pagination-item">
