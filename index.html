@@ -45,7 +45,7 @@
                       <a class="cart-conteiner" href="hotel.html">
                         <span class="cart-link">
                           <img class="image-cart" src="images/catalog/hotel-2.jpg" width="48" height="48" alt="Мотель">
-                          <h3 class="cart-item-title">Desert Quail Inn</h3>
+                          <span class="cart-item-title">Desert Quail Inn</span>
                           <span class="cart-item-price"> Мотель</span>
                         </span>
                       </a>
@@ -61,7 +61,7 @@
                       <a class="cart-conteiner" href="hotel.html">
                         <span class="cart-link">
                           <img class="image-cart" src="images/catalog/hotel-3.jpg" width="48" height="48" alt="Апартаменты">
-                          <h3 class="cart-item-title">Villas at Poco Diablo</h3>
+                          <span class="cart-item-title">Villas at Poco Diablo</span>
                           <span class="cart-item-price"> Апартаменты</span>
                         </span>
                       </a>
@@ -90,17 +90,17 @@
           <img class="hello" src="images/welcome.svg" width="458" height="352" alt="Приветствие на сайте">
         </div>
         <section class="preface">
-          <strong class="preface-position">Седона-небольшой городок в Аризоне, заслуживающий большего!</strong>
-          <p class="preface-item">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          <strong class="preface-position">Седона — небольшой городок в Аризоне, заслуживающий большего!</strong>
+          <p class="preface-item">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <ol class="advantages-list">
             <li class="advantages-item">
               <div class="advantage  blue">
-                <h3 class="title-white">Настоящий городок</h3>
-                <p class="advantages-one">-№1-</p>
-                <p class="advantages-description">Седона- не аттракцион для туристов, там течет своя жизнь</p>
+                <h3 class="title-white">Настоящий<br> городок</h3>
+                <p class="advantages-one">— №1 —</p>
+                <p class="advantages-description">Седона — не аттракцион для туристов, там течет своя жизнь</p>
               </div>
               <img class="advatages-foto" src="images/city.jpg" width="800" height="384" alt="Город">
               <ul class="sublist">
@@ -128,24 +128,24 @@
             <li class="advantages-item">
               <img class="advatages-foto" src="images/bridge.jpg" width="800" height="384" alt="Мост">
               <div class="advantage  blue">
-                <h3 class="title-white">Там есть мост дьявола</h3>
-                <p class="advantages-one">-№2-</p>
+                <h3 class="title-white">Там есть<br> мост дьявола</h3>
+                <p class="advantages-one">— №2 —</p>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </li>
             <li class="advantages-item-mini area">
-              <h3 class="advantages-title-mini">Небольшая площадь</h3>
-              <p class="advantages-number">-№3-</p>
+              <h3 class="advantages-title-mini">Небольшая<br> площадь</h3>
+              <p class="advantages-number">— №3 —</p>
               <p class="advantages-text-mini">Все достопримечательности находятся очень близко</p>
             </li>
             <li class="advantages-item-mini road">
-              <h3 class="advantages-title-mini">Красивая дорога</h3>
-              <p class="advantages-number">-№4-</p>
+              <h3 class="advantages-title-mini">Красивая<br> дорога</h3>
+              <p class="advantages-number">— №4 —</p>
               <p class="advantages-text-mini">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
             <li class="advantages-item-mini tourist">
-              <h3 class="advantages-title-mini">Мало туристов</h3>
-              <p class="advantages-number">-№5-</p>
+              <h3 class="advantages-title-mini">Мало<br> туристов</h3>
+              <p class="advantages-number">— №5 —</p>
               <p class="advantages-text-mini">Большиство едет в Гранд Каньон и толпится там</p>
             </li>
           </ol>
@@ -160,7 +160,8 @@
           <h2 class="mailing-title">Подпишитесь на рассылку</h2>
           <p class="mailing-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="mail-form form-invalid" type="email" id="mailing" name="Ваш e-mail" placeholder="Ваш e-mail">
+            <input class="mail-form" type="email" id="mailing" name="Ваш e-mail" placeholder="Ваш e-mail">
+            <!--class="form-invalid"-->
             <button class="button-mail" type="submit">Подписаться</button>
           </form>
         </section>
@@ -215,7 +216,8 @@
           <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
               <label class="modal-date-title" for="auth-login">Дата заезда:</label>
-              <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="Укажите дату" value="27 апреля 2020">
+              <input class="auth-form-field" type="text" id="auth-login" name="auth-login" placeholder="Укажите дату" value="27 апреля 2020">
+              <!-- ошибка class="field"-->
               <button class="modal-date-button" type="button">
                 <svg class="modal-date-icon" width="15" height="15" fill="#000" xmlns="http://www.w3.org/2000/svg"><g opacity="0.3" fill="#000">
                   <path d="M5.5 10c.3 0 .5-.2.5-.5S5.8 9 5.5 9s-.5.2-.5.5.2.5.5.5Z"/>
@@ -224,11 +226,12 @@
                 </svg>
                 <span class="visually-hidden">Календарь</span>
               </button>
+              <span class="start-subscription">Мы не можем отправить вас в прошлое.</span>
             </p>
-            <span class="start-subscription">Мы не можем отправить вас в прошлое.</span>
             <p class="field-group">
               <label class="modal-date-title" for="auth-password">Дата выезда:</label>
-              <input class="auth-form-field field" type="text" id="auth-password" name="auth-password" placeholder="Укажите дату" value="1 сентября 2021">
+              <input class="auth-form-field" type="text" id="auth-password" name="auth-password" placeholder="Укажите дату" value="1 сентября 2021">
+              <!-- ошибка class="field"-->
               <button class="modal-date-button" type="button">
                 <svg class="modal-date-icon" width="15" height="15" fill="#000" xmlns="http://www.w3.org/2000/svg"><g opacity="0.3" fill="#000">
                   <path d="M5.5 10c.3 0 .5-.2.5-.5S5.8 9 5.5 9s-.5.2-.5.5.2.5.5.5Z"/>
@@ -237,24 +240,22 @@
                 </svg>
                 <span class="visually-hidden">Календарь</span>
               </button>
+              <span class="departure-subscription">На эти даты есть свободные номера. Пока есть.</span>
             </p>
-            <span class="departure-subscription">На эти даты есть свободные номера. Пока есть.</span>
             <div class="modal-people">
               <div class="modal-people-form">
                 <label class="modal-label big" for="min-people">Взрослые:</label>
                 <div class="modal-form-conteiner">
                   <input class="modal-form-mini" id="min-people" type="number" value="2" name="people">
                   <button class="modal-min" type="button">
-                    <svg width="13" height="1" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="modal-icon-mini" width="13" height="1" fill="#000" xmlns="http://www.w3.org/2000/svg">
                       <path opacity="0.3" d="M0 0v1h13V0H0Z"/>
                       </svg>
                     <span class="visually-hidden">Уменьшить</span>
                   </button>
                   <button class="modal-max" type="button">
-                    <svg width="13" height="13" viewBox="0 0 13 13" fill="black" xmlns="http://www.w3.org/2000/svg">
-                      <g opacity="0.3">
-                      <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
-                      </g>
+                    <svg class="modal-icon-max" width="13" height="13" viewBox="0 0 13 13" fill="black" xmlns="http://www.w3.org/2000/svg">
+                      <path opacity="0.3" d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                       </svg>
                     <span class="visually-hidden">Увеличить</span>
                   </button>
@@ -273,29 +274,27 @@
                 <div class="modal-form-conteiner">
                   <input class="modal-form-mini" id="max-people" type="number" value="1" name="people">
                   <button class="modal-min" type="button">
-                    <svg width="13" height="1" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="modal-icon-mini" width="13" height="1" fill="#000" xmlns="http://www.w3.org/2000/svg">
                       <path opacity="0.3" d="M0 0v1h13V0H0Z"/>
                       </svg>
                     <span class="visually-hidden">Уменьшить</span>
                   </button>
                   <button class="modal-max" type="button">
-                    <svg width="13" height="13" viewBox="0 0 13 13" fill="black" xmlns="http://www.w3.org/2000/svg">
-                      <g opacity="0.3">
-                      <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
-                      </g>
+                    <svg class="modal-icon-max" width="13" height="13" viewBox="0 0 13 13" fill="black" xmlns="http://www.w3.org/2000/svg">
+                      <path opacity="0.3" d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                       </svg>
                     <span class="visually-hidden">Увеличить</span>
                   </button>
                 </div>
               </div>
             </div>
+            <button class="modal-search" type="submit">
+              <span class="modal-form-search">Найти</span>
+            </button>
           </form>
         </section>
         <button class="modal-close-button" type="button">
           <span class="visually-hidden">Закрыть</span>
-        </button>
-        <button class="modal-search" type="button">
-          <span class="modal-form-search">Найти</span>
         </button>
       </div>
     </div>
