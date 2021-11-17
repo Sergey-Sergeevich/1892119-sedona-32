@@ -424,6 +424,7 @@ body {
   color: #000000;
   text-decoration: none;
   padding: 0 12px;
+  padding-bottom: 16px;
 }
 
 .navigation-link:not(.navigation-active):hover {
@@ -2011,7 +2012,6 @@ label:active .control-mark {
 .popover-content {
   padding: 0 12px;
   padding-top: 12px;
-  margin-bottom: 34px;
 }
 
 .cart-item {
@@ -2110,6 +2110,7 @@ label:active .control-mark {
 }
 
 .popover-button {
+  display: block;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -2117,7 +2118,7 @@ label:active .control-mark {
   text-align: center;
   text-transform: uppercase;
   width: 400px;
-  padding: 17px 140px;
+  padding: 17px 0;
   border-radius: 0 0 20px 20px;
   border: 3px solid transparent;
   box-sizing: border-box;
@@ -2396,6 +2397,7 @@ label:active .control-mark {
   right: 13px;
   width: 27px;
   height: 27px;
+  background-color: transparent;
   border: 3px solid transparent;
   border-radius: 4px;
   padding: 0;
